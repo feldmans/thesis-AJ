@@ -1,4 +1,9 @@
 d <- read.csv2("data/aorte.csv")
 
+
+names(d)
+
 #data management
-vec_varpre <- c("age", "sex")
+
+#selection des variables preop
+varpre <- c("age", "sex")
